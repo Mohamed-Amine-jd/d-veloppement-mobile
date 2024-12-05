@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP7</string>
+    <string name="hello_blank_fragment">hello</string>
+    <string name="liste_enseignants">teacher-liste</string>
+    <string name="liste_courses">courses_list</string>
+    <string name="en_ligne">online</string>
+    <string name="ajouter">add</string>
+    <string name="login">Login</string>
+    <string name="description">description</string>
+    <string name="s_lectionner_un_pdf">select pdf</string>
+    <string name="bienvenue_sur_notre_application">its pleasure to have you here with us</string>
+    <string name="choisissez_votre_langue">chose langage</string>
+    <string name="start">getstarted</string>
+</resources>

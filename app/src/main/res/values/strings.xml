@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TP7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="liste_enseignants">liste enseignants</string>
+    <string name="open_drawer">open drawer</string>
+    <string name="close_drawer">close drawer</string>
+    <string name="liste_courses">liste courses</string>
+    <string name="priority_low">Basse</string>
+    <string name="priority_medium">Moyenne</string>
+    <string name="priority_high">Haute</string>
+    <string name="priority_unknown">Inconnue</string>
+    <string name="invalid_date">Date invalide</string>
+    <string name="description">Description</string>
+    <string name="s_lectionner_un_pdf">Sélectionner un PDF</string>
+    <string name="aucun_fichier_s_lectionn">Aucun fichier sélectionné</string>
+    <string name="en_ligne">En ligne</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="what_would_you_like_to_nlearn_today">What Would You like to \nlearn today?</string>
+    <string name="login">Login</string>
+    <string name="hi_ncreate_account">Hi,\nCreate Account!</string>
+    <string name="firstname">FirstName</string>
+    <string name="register">Register</string>
+    <string name="select_pdf">select PDF</string>
+    <string name="enregistrer">enregistrer</string>
+    <string name="course_type">Course Type</string>
+    <string name="course_description">Course Description</string>
+    <string name="course_name">Course Name</string>
+    <string name="it_s_a_pleasure_to_have_you_here_with_us">It\'s a pleasure to have you here with us !</string>
+    <string name="bienvenue_sur_notre_application">Bienvenue sur notre application</string>
+    <string name="choisissez_votre_langue">Choisissez votre langue</string>
+    <string name="start">Start</string>
+
+
+    <string-array name="roles_array">
+        <item>Teacher</item>
+        <item>Student</item>
+        <item>Admin</item>
+    </string-array>
+
+</resources>

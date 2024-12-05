@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    app:cardBackgroundColor="#458BC34A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/cours_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cours_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Description"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cours_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Type"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/teacher_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher Email"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/teacher_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_pdf"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ic_pdf_icon"
+            android:contentDescription="PDF" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_delete"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:background="@color/green"
+                android:text="Supprimer"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_edit"
+                style="@android:style/Widget.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="32dp"
+                android:background="@color/green"
+                android:text="modifier"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,4 @@
+<resources>
+    <item name="show_hide_recycler_view" type="id"/>
+    <item name="nav_list_courses" type="id"/>
+</resources>

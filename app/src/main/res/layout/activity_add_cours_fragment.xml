@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/emailteacher"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Email de l'enseignant"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Num de telephone de l'enseignant"
+        android:inputType="text" />
+
+    <!-- Course Name -->
+    <EditText
+        android:id="@+id/nom_cours_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Nom du cours"
+        android:inputType="text" />
+
+    <!-- Course Description -->
+    <EditText
+        android:id="@+id/description_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="@string/description"
+        android:inputType="text" />
+
+    <!-- Course PDF Selection -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/select_pdf_button"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/green"
+        android:text="@string/s_lectionner_un_pdf"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+         />
+
+    <!-- Display selected PDF name -->
+    <TextView
+        android:id="@+id/pdf_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aucun_fichier_s_lectionn"
+        android:textColor="#808080"
+        android:paddingTop="8dp" />
+
+    <!-- Course Type -->
+    <RadioGroup
+        android:id="@+id/type_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/type_radio_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/en_ligne" />
+        <RadioButton
+            android:id="@+id/type_radio_inperson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Présentiel" />
+    </RadioGroup>
+
+    <!-- Teacher Spinner (Visible when data is populated) -->
+    <Spinner
+        android:id="@+id/teacher_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="gone" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_button"
+            style="@android:style/Widget.Button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@color/green"
+            android:text="@string/ajouter"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
